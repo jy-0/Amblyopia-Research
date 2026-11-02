@@ -1,0 +1,11 @@
+patient_id,label,right_image,left_image
+case_001,0,images/case_001_R.png,images/case_001_L.png
+case_002,0,images/case_002_R.png,images/case_002_L.png
+case_003,0,images/case_003_R.png,images/case_003_L.png
+case_004,0,images/case_004_R.png,images/case_004_L.png
+case_005,0,images/case_005_R.png,images/case_005_L.png
+case_006,1,images/case_006_R.png,images/case_006_L.png
+case_007,1,images/case_007_R.png,images/case_007_L.png
+case_008,1,images/case_008_R.png,images/case_008_L.png
+case_009,1,images/case_009_R.png,images/case_009_L.png
+case_010,1,images/case_010_R.png,images/case_010_L.png

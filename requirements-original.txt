@@ -1,0 +1,6 @@
+# Optional: dependencies for the archived original experimental scripts.
+-r requirements.txt
+pandas==2.3.3
+openpyxl==3.1.5
+python-docx==1.2.0
+transformers==5.12.1

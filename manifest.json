@@ -1,0 +1,380 @@
+{
+  "release": "amblyopia-image-1100-seed42-20261102",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 16,
+      "sha256": "08531f418f3cfebe9b43677a2353297215739bbf3a8d9274348b1750da4ef6b0"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 205,
+      "sha256": "1fe4f8eef0402dc35d6ec2bde8bc272e521fdfa1ad0488cb5d319f1f6877923d"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1497,
+      "sha256": "b4dd0ef4c4c4c15c7a7ceac3100c051ca3fe5fce89f55e0c09244b65fc880823"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 1311,
+      "sha256": "980d2f570279f2b25342b42ee11089903711b8603358b6b742eee1b025ce53e8"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7441,
+      "sha256": "5d451158f5f2f76acdd1d774be828aae975e8ae7d32b719970a4fd3c40d28dad"
+    },
+    {
+      "path": "core.py",
+      "bytes": 11357,
+      "sha256": "906aa93a7ea92ab8d965d805de30ec97d692e9ca7318c7b8b3a96cae12de7f6e"
+    },
+    {
+      "path": "demo.py",
+      "bytes": 1257,
+      "sha256": "2388c4c265175fab97c36f85ad7fe82631f0c1c867cd40bdaea2de22cbc7f4be"
+    },
+    {
+      "path": "environment.json",
+      "bytes": 389,
+      "sha256": "588e8c522975832f857d1c2f9cde412b55361ed7f7a26eb6c24cf6f2ee111f5b"
+    },
+    {
+      "path": "environment.yml",
+      "bytes": 124,
+      "sha256": "9e3882cd7775c7b4124fe9352e28f802754dc6ddfa653947c3ffa723cd65d16d"
+    },
+    {
+      "path": "examples/manifest.example.csv",
+      "bytes": 463,
+      "sha256": "cfda75984ff5d315ec811886dcc5713571b7ce7c9c26d3c719c59782c72d4cb1"
+    },
+    {
+      "path": "legacy_source/config.py",
+      "bytes": 3917,
+      "sha256": "0100b41214b56037a063991ce837c0417e958c12b762451254820d24ae412550"
+    },
+    {
+      "path": "legacy_source/dataset.py",
+      "bytes": 10002,
+      "sha256": "131d05fd116b498b81cb489be1c16c46d0f9ff573f5e4d2223b91f8df34be8b3"
+    },
+    {
+      "path": "legacy_source/model.py",
+      "bytes": 6415,
+      "sha256": "1f9210afe30f79b124eb48c05a68b62542f6bb19567803ffd51971adfa2e3116"
+    },
+    {
+      "path": "legacy_source/train.py",
+      "bytes": 9735,
+      "sha256": "b8282960e5a8eb881415082820b7f68d44838d661820fe217dbd9d1d5f9907e7"
+    },
+    {
+      "path": "metrics/logistic_seed42.json",
+      "bytes": 5017,
+      "sha256": "145270796741106c7d7719b62de16e9135374610a3ff27c3fb3e0dcca961fee6"
+    },
+    {
+      "path": "metrics/rbf_svm_seed42.json",
+      "bytes": 5089,
+      "sha256": "36149f9f9eb00f91d06b7637eb98fb3c523331cee8fe7eae9f3cd0f5952d5de6"
+    },
+    {
+      "path": "original_source/README.md",
+      "bytes": 880,
+      "sha256": "ac753701dd2ae849b0f79eefcda0ee9089f54f5f0478c4f14fed473661fde5a2"
+    },
+    {
+      "path": "original_source/executed_snapshot/executed_report_script.py",
+      "bytes": 39926,
+      "sha256": "428f2605741a334185b7d604e6111766d6d00f5d5497bc38a4a3cfe3625129b9"
+    },
+    {
+      "path": "original_source/executed_snapshot/executed_training_script.py",
+      "bytes": 20832,
+      "sha256": "698dea80323207c2fb66fcd6154089a9e1deccc44f2a35318a5c46ad3690ca0d"
+    },
+    {
+      "path": "original_source/model_code/audit_astigmatism_workbook.py",
+      "bytes": 11593,
+      "sha256": "5384291cb2e0a42106098aff113ab886d7d70d9b517cd4ad4dd2e381dac0a7b3"
+    },
+    {
+      "path": "original_source/model_code/audit_dataset_1024.py",
+      "bytes": 18077,
+      "sha256": "6b29a2612c24dca4f20978d19f371158507b8ab1429bd9cb098c09d8fec05af6"
+    },
+    {
+      "path": "original_source/model_code/config.py",
+      "bytes": 3653,
+      "sha256": "bbc9344cfeaf09e2abb2413062184316d8d9b4f4bcc56622245456e5f9abfabe"
+    },
+    {
+      "path": "original_source/model_code/create_anisometropia_601_split.py",
+      "bytes": 13049,
+      "sha256": "7367472211e00867b6098576c7dd19245ae732ba330977326259ea7e4e443fb8"
+    },
+    {
+      "path": "original_source/model_code/dataset_reflection_images.py",
+      "bytes": 9387,
+      "sha256": "2d2b9b2f8c862d82ef408308e689b7bd25e4d588ad69353a1d62bedbb73a4f8f"
+    },
+    {
+      "path": "original_source/model_code/experiment_anisometropia_frozen.py",
+      "bytes": 15315,
+      "sha256": "472fa4940ab1dcaf1c40b1e0826a748ff15612c5a735d425702e2ce7ceff84f3"
+    },
+    {
+      "path": "original_source/model_code/experiment_raw_amblyopia.py",
+      "bytes": 10822,
+      "sha256": "a544ad04b9470bbe350c565583f65aa40a653598774c3115140411df5b78bb8a"
+    },
+    {
+      "path": "original_source/model_code/experiment_raw_direct_concat.py",
+      "bytes": 12363,
+      "sha256": "046ddbbb21ea79c95e6761d4254cec2deb54e5cb7456a0c6e5fe2b89d3f66ba8"
+    },
+    {
+      "path": "original_source/model_code/experiment_raw_svm.py",
+      "bytes": 18940,
+      "sha256": "e0e58a8bda3dc41e18a7f994814d0038bd617f5eb4f6f450547ec9afdbc09296"
+    },
+    {
+      "path": "original_source/model_code/experiment_reproduced_raw_comparison.py",
+      "bytes": 15602,
+      "sha256": "e24e3fd20475e215d72c217e7a3e8279812792c37a39b6e0a391ff88f56862dc"
+    },
+    {
+      "path": "original_source/model_code/experiment_unilateral_modalities_20261030.py",
+      "bytes": 20832,
+      "sha256": "698dea80323207c2fb66fcd6154089a9e1deccc44f2a35318a5c46ad3690ca0d"
+    },
+    {
+      "path": "original_source/model_code/finalize_label_only_1024.py",
+      "bytes": 4562,
+      "sha256": "0599970e4cf456678598ab874b288138106783257949746bfbf39f1a24091eef"
+    },
+    {
+      "path": "original_source/model_code/model.py",
+      "bytes": 8456,
+      "sha256": "01f4ef2bf4822db621515f3f073f069a77b812844c1db53b912597408f2c548d"
+    },
+    {
+      "path": "original_source/model_code/model_pairwise_amblyopia.py",
+      "bytes": 1696,
+      "sha256": "5f1f29724c7975c333b1c91b3d32bde50a93a063b22f2e5a6093e68c86b69040"
+    },
+    {
+      "path": "original_source/model_code/model_reflection_image_pair.py",
+      "bytes": 3058,
+      "sha256": "6d175aec3e90fb7e481ec2a8a92978f00943f7efa541a7418714a694ad04f3b2"
+    },
+    {
+      "path": "original_source/model_code/prepare_clean_1024_split.py",
+      "bytes": 18292,
+      "sha256": "3a350d8a6e6c6fd8aa3738e4b04711fe50eae9f51d94d09c6be910ed43d2d390"
+    },
+    {
+      "path": "original_source/model_code/prepare_normal_unilateral_subset_20261030.py",
+      "bytes": 8240,
+      "sha256": "2b4bb8743cff78026c3c9777d189c219222aaee8fc446dd50892a6a5c52c504b"
+    },
+    {
+      "path": "original_source/model_code/report_anisometropia_modalities.py",
+      "bytes": 11355,
+      "sha256": "2565e67033565e60a0ff0f778a1d694b3d2c802eca562bb6a36ac6b8829e1539"
+    },
+    {
+      "path": "original_source/model_code/report_raw_three_splits.py",
+      "bytes": 13566,
+      "sha256": "dfeab54dbbe6aac62bacef267604328f140cd2bab4de08809b1b713af8d14d31"
+    },
+    {
+      "path": "original_source/model_code/report_unilateral_modalities_20261030.py",
+      "bytes": 39926,
+      "sha256": "428f2605741a334185b7d604e6111766d6d00f5d5497bc38a4a3cfe3625129b9"
+    },
+    {
+      "path": "original_source/model_code/train_anisometropia.py",
+      "bytes": 10586,
+      "sha256": "df3535ebd1658b8a34800c12b9a3a2f235d5600d0def2c506add4a3205e292b1"
+    },
+    {
+      "path": "original_source/model_code/train_anisometropia_images.py",
+      "bytes": 14030,
+      "sha256": "788a346bf1782d9592ddc918c3889c7c74730029aae0010294770da430e74219"
+    },
+    {
+      "path": "original_source/model_code/train_reflection_image.py",
+      "bytes": 8939,
+      "sha256": "fc2bfe9622033534fa0a5ceaf6ad591856cf8fb66dfbc89c5f1ddfd768c0f3c0"
+    },
+    {
+      "path": "predict.py",
+      "bytes": 1202,
+      "sha256": "6bb3ab83b70067a3adeb17d81a0afa1e7422ff4f0cdcd96c013c803d455bec28"
+    },
+    {
+      "path": "requirements-original.txt",
+      "bytes": 163,
+      "sha256": "442120e07ed807a35372a997ae5de374375b98a541d94865777e3adbf81a9ba7"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 143,
+      "sha256": "3542964c997d947f6cd40b0cf960bd68ef6b9438b7320a64499596a4d17b3349"
+    },
+    {
+      "path": "sample_dataset/README.md",
+      "bytes": 1200,
+      "sha256": "646160f2fb6e51a5bfe5edae9ed5732abfc67241292f1c5c44f7f542b7393dcf"
+    },
+    {
+      "path": "sample_dataset/images/case_001_L.png",
+      "bytes": 269667,
+      "sha256": "a4b808bee269dace93af8256c607891509f5fc5a1493574484feeeea894862ae"
+    },
+    {
+      "path": "sample_dataset/images/case_001_R.png",
+      "bytes": 256864,
+      "sha256": "f2532d0754a6df3f23bf04f6c5d70c5d97c0f7f6f6d5ddea9064991ea2a42731"
+    },
+    {
+      "path": "sample_dataset/images/case_002_L.png",
+      "bytes": 309639,
+      "sha256": "2ef42aa054ab080a068d60740b72478b0dbac8afb38f1b1cb4a0cd5f91202c4b"
+    },
+    {
+      "path": "sample_dataset/images/case_002_R.png",
+      "bytes": 311295,
+      "sha256": "96da8022b3f5cd3945578021417045ba3174f1ef86596b4166376eda38d6266a"
+    },
+    {
+      "path": "sample_dataset/images/case_003_L.png",
+      "bytes": 293616,
+      "sha256": "f968ff9325d826028dec0e9f0830f6fed22aa4b69514508340608b5e9d77820c"
+    },
+    {
+      "path": "sample_dataset/images/case_003_R.png",
+      "bytes": 296870,
+      "sha256": "268bde52ce413b0c3d803521a061793b75f4fadf853578fd3672206248bb8bf7"
+    },
+    {
+      "path": "sample_dataset/images/case_004_L.png",
+      "bytes": 307852,
+      "sha256": "05272136459f2ee2d80f6e55db7c4c9513ebd2571ace6207be470121d9f61817"
+    },
+    {
+      "path": "sample_dataset/images/case_004_R.png",
+      "bytes": 295489,
+      "sha256": "f4f1ebff69674e507790fef3426fe7fadf1ff8834a0ddbeb2449727f009785bc"
+    },
+    {
+      "path": "sample_dataset/images/case_005_L.png",
+      "bytes": 315954,
+      "sha256": "a8ab438d010de3b63cb16cc831cc80b8f47c7e2f38e49f3220c77bde00c558dc"
+    },
+    {
+      "path": "sample_dataset/images/case_005_R.png",
+      "bytes": 315532,
+      "sha256": "12d40a7bcb9a7e607c918b0604a0765ec22bd78097610609228589ca395375c7"
+    },
+    {
+      "path": "sample_dataset/images/case_006_L.png",
+      "bytes": 293861,
+      "sha256": "c0e1eb25bf7d5a9aa310dff90a90aba33129884bf2719104b6b2d75e5967cf0c"
+    },
+    {
+      "path": "sample_dataset/images/case_006_R.png",
+      "bytes": 288150,
+      "sha256": "dade21f95d8f6bd5abf65de0c15319875f28975331fa75babb7b7358a8f099cc"
+    },
+    {
+      "path": "sample_dataset/images/case_007_L.png",
+      "bytes": 319101,
+      "sha256": "b6cb8b3884b8e491272e69d8b78d1b9cbd98e2242fecf0fcfddc44e0b61197ec"
+    },
+    {
+      "path": "sample_dataset/images/case_007_R.png",
+      "bytes": 297381,
+      "sha256": "75c93dd3ac2f15b2d7e011d9a0a3d343d6cc043945654139a82423313c476197"
+    },
+    {
+      "path": "sample_dataset/images/case_008_L.png",
+      "bytes": 293639,
+      "sha256": "4d760e4820c09e8ee4490f43cc70969513a8d9b3e4a2d494230e76b7d8971717"
+    },
+    {
+      "path": "sample_dataset/images/case_008_R.png",
+      "bytes": 287562,
+      "sha256": "6556918aed6e647dd6e6b7f8de43c7a161dcacf886eaa1f92368d80db3fbf251"
+    },
+    {
+      "path": "sample_dataset/images/case_009_L.png",
+      "bytes": 302985,
+      "sha256": "f26818a08e7f91eb1ddb3be8ca2b586a462fe2a09d93cfe2af9ea06185878398"
+    },
+    {
+      "path": "sample_dataset/images/case_009_R.png",
+      "bytes": 303333,
+      "sha256": "a38381e2c7f85e64c309ba7a16d9252d2868be83059887e421fa546eabe73aac"
+    },
+    {
+      "path": "sample_dataset/images/case_010_L.png",
+      "bytes": 285447,
+      "sha256": "ea8e981adcb7cd0a26e94a9bdc61259011af68a81ef74f912682970d26f68446"
+    },
+    {
+      "path": "sample_dataset/images/case_010_R.png",
+      "bytes": 286907,
+      "sha256": "bfd3bf22b87b4f9e95b31b7105920f813e30fb390bbb975113646a905f7ed91b"
+    },
+    {
+      "path": "sample_dataset/labels.csv",
+      "bytes": 601,
+      "sha256": "bdf478a9ffe1253cf8942b3bf2f1cac74f075f73128ebf203347055f15add37d"
+    },
+    {
+      "path": "selection.json",
+      "bytes": 971,
+      "sha256": "949c7869550a0129e2130228c9e218a34e663c413ef5d69a1f32441a9bbb930d"
+    },
+    {
+      "path": "tests/test_core.py",
+      "bytes": 2956,
+      "sha256": "45b4b7fccd7d8f13af6f5cf8736201af8fc96d04a89b0440fb454bef720aae43"
+    },
+    {
+      "path": "train.py",
+      "bytes": 3146,
+      "sha256": "373e4a5b2b19e38f07f7bb61b69523eeac586d631491516a8bd7a9533d2235c1"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 1198,
+      "sha256": "fce0741ab43b94c26be8e0cd366694442a5953f175032d67788f98d2d35993bb"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 585,
+      "sha256": "d992bc344d77c623fc21cf5d372704693ed74e1d06961d00bec5c1614cc64753"
+    },
+    {
+      "path": "weights/logistic_seed42.joblib",
+      "bytes": 26553,
+      "sha256": "78a61b527589b657d24e997c4578a391c48e6276fc75e9043e1931ab00f1b3de"
+    },
+    {
+      "path": "weights/rbf_svm_seed42.joblib",
+      "bytes": 3959988,
+      "sha256": "b429a8e9f873d40f0a6c6f78460d7b0f496bceb64ca5c80f100b56b07a797a59"
+    },
+    {
+      "path": "weights/retfound_green.pth",
+      "bytes": 87396676,
+      "sha256": "431de5dbc1bebbb32f60e2c0bcf8daa4f8bcbf06f7cb1e1dc97ec589713942e1"
+    }
+  ]
+}

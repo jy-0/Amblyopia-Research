@@ -1,0 +1,32 @@
+{
+  "models": [
+    {
+      "classifier": "logistic",
+      "patients_scores_reproduced": 1100,
+      "head_reloaded": true,
+      "portable_training_reproduced": true,
+      "parameter_selection_and_all_thresholds_reproduced": true,
+      "source_head_sha256": "fcd8c9ffa171a284cc7b9becb3ce65d793d47b09713f3fb822668784948c9a0f"
+    },
+    {
+      "classifier": "rbf_svm",
+      "patients_scores_reproduced": 1100,
+      "head_reloaded": true,
+      "portable_training_reproduced": true,
+      "parameter_selection_and_all_thresholds_reproduced": true,
+      "source_head_sha256": "4b4db7f67b928825ce47c1ab74b506898e3b285d6732eedfc9433d9f10f95bc1"
+    }
+  ],
+  "real_image_pairs_reencoded": 2,
+  "raw_image_encoding_and_cached_features_agree": true,
+  "patient_names_exported": false,
+  "authorized_anonymous_sample_patients": 10,
+  "authorized_anonymous_sample_images": 20,
+  "sample_image_metadata_removed": true,
+  "sample_demo_both_classifiers_executed": true,
+  "unit_tests_passed": 5,
+  "private_predictions_exported": false,
+  "private_feature_cache_exported": false,
+  "encoder_sha256": "431de5dbc1bebbb32f60e2c0bcf8daa4f8bcbf06f7cb1e1dc97ec589713942e1",
+  "encoder_parameters": 21832704
+}

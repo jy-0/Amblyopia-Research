@@ -1,0 +1,222 @@
+{
+  "classifier": "rbf_svm",
+  "seed": 42,
+  "parameters": {
+    "C": 1.0,
+    "gamma": 0.0001,
+    "kernel": "rbf"
+  },
+  "thresholds": {
+    "default": 0.0,
+    "validation_bacc": -0.07169683117506909,
+    "validation_sens90": -0.3921269944755045
+  },
+  "metrics": {
+    "default": {
+      "train": {
+        "patients": 739,
+        "positive": 289,
+        "negative": 450,
+        "threshold": 0.0,
+        "auc": 0.8254671280276816,
+        "accuracy": 0.7510148849797023,
+        "sensitivity": 0.6608996539792388,
+        "specificity": 0.8088888888888889,
+        "precision": 0.6895306859205776,
+        "f1": 0.6749116607773852,
+        "confusion_matrix": [
+          [
+            364,
+            86
+          ],
+          [
+            98,
+            191
+          ]
+        ]
+      },
+      "val": {
+        "patients": 188,
+        "positive": 71,
+        "negative": 117,
+        "threshold": 0.0,
+        "auc": 0.7939087516552304,
+        "accuracy": 0.7074468085106383,
+        "sensitivity": 0.647887323943662,
+        "specificity": 0.7435897435897436,
+        "precision": 0.6052631578947368,
+        "f1": 0.6258503401360545,
+        "confusion_matrix": [
+          [
+            87,
+            30
+          ],
+          [
+            25,
+            46
+          ]
+        ]
+      },
+      "test": {
+        "patients": 173,
+        "positive": 64,
+        "negative": 109,
+        "threshold": 0.0,
+        "auc": 0.8119266055045872,
+        "accuracy": 0.7514450867052023,
+        "sensitivity": 0.671875,
+        "specificity": 0.7981651376146789,
+        "precision": 0.6615384615384615,
+        "f1": 0.6666666666666666,
+        "confusion_matrix": [
+          [
+            87,
+            22
+          ],
+          [
+            21,
+            43
+          ]
+        ]
+      }
+    },
+    "validation_bacc": {
+      "train": {
+        "patients": 739,
+        "positive": 289,
+        "negative": 450,
+        "threshold": -0.07169683117506909,
+        "auc": 0.8254671280276816,
+        "accuracy": 0.7428958051420839,
+        "sensitivity": 0.6955017301038062,
+        "specificity": 0.7733333333333333,
+        "precision": 0.6633663366336634,
+        "f1": 0.6790540540540541,
+        "confusion_matrix": [
+          [
+            348,
+            102
+          ],
+          [
+            88,
+            201
+          ]
+        ]
+      },
+      "val": {
+        "patients": 188,
+        "positive": 71,
+        "negative": 117,
+        "threshold": -0.07169683117506909,
+        "auc": 0.7939087516552304,
+        "accuracy": 0.7180851063829787,
+        "sensitivity": 0.7323943661971831,
+        "specificity": 0.7094017094017094,
+        "precision": 0.6046511627906976,
+        "f1": 0.6624203821656051,
+        "confusion_matrix": [
+          [
+            83,
+            34
+          ],
+          [
+            19,
+            52
+          ]
+        ]
+      },
+      "test": {
+        "patients": 173,
+        "positive": 64,
+        "negative": 109,
+        "threshold": -0.07169683117506909,
+        "auc": 0.8119266055045872,
+        "accuracy": 0.7341040462427746,
+        "sensitivity": 0.71875,
+        "specificity": 0.7431192660550459,
+        "precision": 0.6216216216216216,
+        "f1": 0.6666666666666666,
+        "confusion_matrix": [
+          [
+            81,
+            28
+          ],
+          [
+            18,
+            46
+          ]
+        ]
+      }
+    },
+    "validation_sens90": {
+      "train": {
+        "patients": 739,
+        "positive": 289,
+        "negative": 450,
+        "threshold": -0.3921269944755045,
+        "auc": 0.8254671280276816,
+        "accuracy": 0.6941813261163735,
+        "sensitivity": 0.8650519031141869,
+        "specificity": 0.5844444444444444,
+        "precision": 0.5720823798627003,
+        "f1": 0.6887052341597796,
+        "confusion_matrix": [
+          [
+            263,
+            187
+          ],
+          [
+            39,
+            250
+          ]
+        ]
+      },
+      "val": {
+        "patients": 188,
+        "positive": 71,
+        "negative": 117,
+        "threshold": -0.3921269944755045,
+        "auc": 0.7939087516552304,
+        "accuracy": 0.648936170212766,
+        "sensitivity": 0.9014084507042254,
+        "specificity": 0.49572649572649574,
+        "precision": 0.5203252032520326,
+        "f1": 0.6597938144329897,
+        "confusion_matrix": [
+          [
+            58,
+            59
+          ],
+          [
+            7,
+            64
+          ]
+        ]
+      },
+      "test": {
+        "patients": 173,
+        "positive": 64,
+        "negative": 109,
+        "threshold": -0.3921269944755045,
+        "auc": 0.8119266055045872,
+        "accuracy": 0.6473988439306358,
+        "sensitivity": 0.90625,
+        "specificity": 0.4954128440366973,
+        "precision": 0.5132743362831859,
+        "f1": 0.655367231638418,
+        "confusion_matrix": [
+          [
+            54,
+            55
+          ],
+          [
+            6,
+            58
+          ]
+        ]
+      }
+    }
+  },
+  "input_dim": 768,
+  "cohort_patients": 1100
+}

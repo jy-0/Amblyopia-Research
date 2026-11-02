@@ -1,0 +1,43 @@
+{
+  "models": [
+    {
+      "classifier": "logistic",
+      "selected_seed": 42,
+      "rule": "maximum validation AUROC across seed42,46,43; never selected on test",
+      "candidates": [
+        {
+          "seed": 42,
+          "validation_auc": 0.79378837125316
+        },
+        {
+          "seed": 46,
+          "validation_auc": 0.7682196772514316
+        },
+        {
+          "seed": 43,
+          "validation_auc": 0.7755482456140351
+        }
+      ]
+    },
+    {
+      "classifier": "rbf_svm",
+      "selected_seed": 42,
+      "rule": "maximum validation AUROC across seed42,46,43; never selected on test",
+      "candidates": [
+        {
+          "seed": 42,
+          "validation_auc": 0.7939087516552304
+        },
+        {
+          "seed": 46,
+          "validation_auc": 0.7639250390421656
+        },
+        {
+          "seed": 43,
+          "validation_auc": 0.7915570175438598
+        }
+      ]
+    }
+  ],
+  "selection_split": "validation only"
+}

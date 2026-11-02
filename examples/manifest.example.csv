@@ -1,0 +1,7 @@
+patient_id,split,label,right_image,left_image,right_crop,left_crop
+example_train_001,train,0,data/train_001_R.png,data/train_001_L.png,,
+example_train_002,train,1,data/train_002_R.png,data/train_002_L.png,,
+example_val_001,val,0,data/val_001_R.png,data/val_001_L.png,,
+example_val_002,val,1,data/val_002_R.png,data/val_002_L.png,,
+example_test_001,test,0,data/test_001_R.png,data/test_001_L.png,,
+example_test_002,test,1,data/test_002_R.png,data/test_002_L.png,,
